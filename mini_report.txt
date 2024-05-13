@@ -1,0 +1,17 @@
+Nama Anggota: 
+- I Gede Sudiartika (Ilmu Komputer/6)
+- Anak Agung Gede Andre Kusuma (Pendidikan Teknik Informatika/4)
+- Ni Kadek Aprianti (Ilmu Komputer/6)
+- Komang Wahyu Kusuma Wardana (Ilmu Komputer/6)
+- Komang Adi Satya Mahagangga (Ilmu Komputer/6)
+- Cindy Hapsari (Ilmu Komputer/4)
+
+Topik : Klasifikasi Aksara Bali Berdasarkan Citra Tulisan Tangan
+
+Latar Belakang:
+Penjelasan Dataset:
+Metode Ekstraksi Fitur:
+Classifier:
+Hyperparameter:
+Hasil:
+
