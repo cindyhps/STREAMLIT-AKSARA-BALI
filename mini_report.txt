@@ -8,10 +8,17 @@ Nama Anggota:
 
 Topik : Klasifikasi Aksara Bali Berdasarkan Citra Tulisan Tangan
 
-Latar Belakang:
-Penjelasan Dataset:
-Metode Ekstraksi Fitur:
-Classifier:
-Hyperparameter:
-Hasil:
+Latar Belakang: Di dunia penuh aksara ini, diperlukan pembelajaran untuk mengenali aksara-aksara tersebut. Teknik klasifikasi aksara bali yang digunakan adalah metode ekstraksi fitur dan klasifikasi. Metode ini menggunakan citra tulisan tangan sebagai bahan pembelajaran.
+Penjelasan Dataset: Dataset yang digunakan berupa citra tulisan tangan 1000 aksara bali yang telah diklasifikasikan sesuai dengan kategori aksara.
+Metode Ekstraksi Fitur: Metode yang digumakan berupa klasifikasi aksara bali berdasarkan citra tulisan tangan.
+Classifier: Penggunaan Classifier model SVM dengan kernel polinomial digunakan untuk memprediksi aksara berdasarkan fitur-fitur yang diekstraksi dari gambar yang diinputkan. Fitur-fitur tersebut diekstraksi menggunakan metode Histogram of Oriented Gradients (HOG) dari gambar yang telah diproses 
+Hyperparameter: 
+1. Histogram of Oriented Gradients (HOG):
+   orientations: Jumlah kompartemen dalam histogram orientasi. Dalam kode ini, jumlahnya adalah 9.
+   pixels_per_cell: Ukuran sel dalam piksel untuk komputasi HOG. Dalam kode ini, ukurannya adalah (5, 5) piksel.
+   cells_per_block: Ukuran blok sel dalam sel yang dibagi. Dalam kode ini, ukurannya adalah (2, 2) sel.
+2. Support Vector Machine (SVM):
+   Kernel: SVM menggunakan kernel polinomial.
+   Degree: Derajat polinomial yang digunakan dalam kernel polinomial SVM. Nilai derajat polinomial dapat bervariasi tergantung pada implementasi dan default dari pustaka joblib.load() yang digunakan untuk memuat model.
+Hasil: Prediksi aksara Bali berdasarkan input gambar yang digambar pada kanvas
 
